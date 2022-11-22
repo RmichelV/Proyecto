@@ -68,4 +68,35 @@ figure img{
       1em 1em 0 -.35em currentcolor;
     }
   }
-  
+
+@media (max-width:680px){
+    html, body{
+        background-color: rgb(0, 0, 0);
+    }
+    figure img{
+        width: 400px;
+        height: 200px;
+    }
+
+}
+
+@media (max-width:480px){
+    html, body{
+        background-color: rgb(0, 0, 0);
+    }
+    figure img{
+        width: 300px;
+        height: 150px;
+    }
+}  
+
+
+@media (max-width:375px){
+    html, body{
+        background-color: rgb(0, 0, 0);
+    }
+    figure img{
+        width: 200px;
+        height: 100px;
+    }
+}  
