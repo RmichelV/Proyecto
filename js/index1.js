@@ -1,6 +1,6 @@
 function cambioUyuni(){
 
-    location.href="../html/index.html";
+    location.href="#ids";
 }
 
 function paquetes(){
