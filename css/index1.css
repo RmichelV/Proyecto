@@ -46,6 +46,7 @@ li{
     text-align: center;
     font-size: 25px;
     color:#A65D28; 
+    border: 3px solid #A65D28;
 }
 
 .titulo-paquetes{
@@ -60,6 +61,7 @@ li{
     margin-bottom: 60px;
     padding-left:50px ;
 }
+
 
 .container-package{
     display: flex;
