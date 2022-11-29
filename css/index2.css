@@ -46,6 +46,7 @@ li{
     text-align: center;
     font-size: 25px;
     color:#A65D28; 
+    border: 3px solid #A65D28;
 }
 
 .titulo-paquetes{
