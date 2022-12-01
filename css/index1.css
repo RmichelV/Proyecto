@@ -237,8 +237,9 @@ article h1{
     
 }
 @media (max-width:890px) {
-    body{
-        overflow: hidden;
+  
+    nav.sticky{
+        padding: 0;
     }
     .logo{
         padding-left: 25px ;
@@ -306,6 +307,13 @@ article h1{
 }
 
 @media (max-width:770px) {
+
+    .hero-title{
+        font-size: 35px;
+    }
+    .hero-logo{
+        width: 550px;
+    }
    .titulo-paquetes{
     font-size: 60px;
    }
@@ -321,9 +329,39 @@ article h1{
 
 @media (max-width:680px) {
    
+    .hero-title{
+        font-size: 30px;
+    }
+    .hero-logo{
+        width: 480px;
+    }
     .img-container{
         width: 400px;
         height: 250px;
+        }
+    
+    .titulo-paquetes{
+        font-size: 50px;
+        text-align: center;
+
+        margin-bottom: 8px;
+    }
+    .container-package{
+        padding: 10px;
+    }
+}
+@media (max-width:540px) {
+   
+    .hero-title{
+        font-size: 25px;
+    }
+    .hero-logo{
+        width: 430px;
+    }
+    .img-container{
+        width: 400px;
+        height: 250px;
+        overflow: hidden;
         }
     
     .titulo-paquetes{
