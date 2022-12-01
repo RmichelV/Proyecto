@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="../css/index3.css">
+    <link rel="shortcut icon" href="../img/icon.jpeg" type="image/x-icon">
+    <script src="../js/index1.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <figure class="icon-s">
+         <img src="../img/hamburguer.png" alt="menu" id="icon-menu" >
+    </figure>
+   
+    <header>
+       <img src="../img/banner2.jpeg" alt="banner" id="banner-img-atras">
+        <img src="../img/logo-wb.png" alt="logo" id="banner-img-adelante">
+    </header>
+    
+    <nav class="nav">
+        <ol>
+            <li onclick="inicio()">Inicio</li>
+            <li onclick="paquetes()">Paquetes</li>
+            <li onclick="contactos()">Contactos y <br> reservas</li>
+        </ol>
+    </nav>
+
+    <h1 class="titulo-paquetes">CONSULTAS Y RESERVAS</h1>
+
+    <div class="contactos">
+        <p class="tic">CONSULTAS</p>
+        <P class="tic">RESERVAS</P>
+    </div>
+
+    <div class="container">
+        <div class="consultas">
+            <h1>Consultas</h1>
+            <form>
+                <div class="labels">
+                    <label for="nombre">NOMBRE: </label>
+                    <label for="correo">CORREO: </label>
+                    <label for="paquete">PAQUETE: </label>
+                    <label for="descripcion"> DESCRIPCION: </label>
+                </div>
+                <div class="inputs">
+                    <input type="text" name="nombre" id="nombre">
+                    <input type="email" name="correo" id="correo">
+                    <select name="paquete" id="paquete">
+                        <option value="Uyuni">Uyuni</option>
+                        <option value="CityTour">City Tour Clasico</option>
+                        <option value="Copabana">Copacabana</option>
+                        <option value="Pampas de Yacuma">Pampas de Yacuma</option>
+                        <option value="Madidi">Madidi</option>
+                        <option value="Bus seensight"></option>
+                    </select>
+                    <input type="text" name="descripcion" id="descripcion">
+                </div>
+            </form>
+        </div>
+        <div class="reservas">
+
+        </div>
+    </div>
+</body>
+</html>

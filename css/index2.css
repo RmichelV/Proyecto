@@ -2,6 +2,23 @@ html, body{
     margin:0;
 }
 
+.icon-s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 191, 0);
+    margin: 10px;
+    position: absolute;
+    padding: 20px;
+    border-radius: 100%;
+    visibility: hidden;
+    
+}
+#icon-menu{
+    height: 20px;
+    width: 20px;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -109,3 +126,95 @@ li{
 .package button{
     margin-bottom: 30px;
 }
+
+
+
+@media (max-width:1180px) {
+    .img-container{
+        width: 450px;
+        height: 400px;
+    }
+    
+}
+
+@media (max-width:1120px){
+    .container-package{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top:30px;
+    }
+    .img-container{
+        width: 850px;
+        height: 400px;
+    }
+}
+
+
+@media (max-width:1050px) {
+    .img-container{
+        width: 700px;
+        height: 400px;
+    }
+    .titulo-paquetes{
+        font-size: 70px;
+       }
+    
+}
+@media (max-width:890px) {
+    .img-container{
+        width: 550px;
+        height: 300px;
+    }
+    .titulo-paquetes{
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    .container-package{
+        padding: 20px;
+    }
+}
+
+@media (max-width:770px) {
+   #banner-img-adelante{
+        width: 500px;
+   }
+
+   .titulo-paquetes{
+    font-size: 60px;
+   }
+   .img-container{
+    width: 500px;
+    height: 300px;
+    }
+    .container-package{
+        padding: 15px;
+    }
+
+}
+
+@media (max-width:680px) {
+    #banner-img-adelante{
+         width: 400px;
+    }
+    .img-container{
+        width: 400px;
+        height: 250px;
+        }
+    
+    .icon-s{
+        visibility:visible
+    }
+    nav{
+        visibility: hidden;
+    }
+    .titulo-paquetes{
+        font-size: 50px;
+        text-align: center;
+        margin-top: -70px;
+        margin-bottom: 8px;
+    }
+
+}
+
+ 

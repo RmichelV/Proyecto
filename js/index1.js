@@ -1,23 +1,22 @@
-function cambioUyuni(){
 
-    location.href="#ids";
-}
+document.addEventListener("DOMContentLoaded", function(event) {
 
-function paquetes(){
-  
-    location.href="../html/index2.html"
-}
+    const ham = document.querySelector('.ham');
 
-function inicio(){
-    location.href="../html/index1.html"
-}
+    const enlaces = document.querySelector('.enlaces-menu');
+    
+    function tog(){
+        enlaces.classList.toggle('activado');
+        barras.forEach(child =>{
+            child.classList.toggle('animado')
+        })
+    }
+    ham.addEventListener('click', tog);
+    const barras = document.querySelectorAll('.ham span');
 
-const menu=document.getElementById("icon-menu");
+    window.addEventListener("scroll",function(){
+        var header = document.querySelector("nav");
+        header.classList.toggle("sticky",this.window.scrollY>100)
+    })
 
-const nav = document.querySelector("nav");
-
-menu.addEventListener("click",verMenu)
-
-function verMenu(){
-    alert("hola");
-}
+});
