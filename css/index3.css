@@ -305,6 +305,18 @@ form #descripcion{
         text-align: center;
         padding: 0;
     }
+
+    .container{
+        width: 600px;
+    }
+
+    form .inp{
+        width: 280px;
+    }
+
+    form #descripcion{
+        width: 280px;
+    }
     
 }
 
@@ -330,9 +342,7 @@ form #descripcion{
         width: 480px;
     }
 
-    nav{
-        visibility: hidden;
-    }
+  
     .titulo-paquetes{
         font-size: 50px;
         text-align: center;
