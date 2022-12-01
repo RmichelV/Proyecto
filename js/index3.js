@@ -2,12 +2,13 @@ function cambPaq(){
     location.href="../html/index2.html"
 }
 function inicio(){
-   
-    location.href="../html/index1.html";
+    location.href="../html/index1.html"
 }
+
 function contactos(){
     location.href="../html/index3.html"
 }
+
 document.addEventListener("DOMContentLoaded", function(event) {
 
     const ham = document.querySelector('.ham');
@@ -28,8 +29,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
         header.classList.toggle("sticky",this.window.scrollY>100)
     })
 
-   
- 
+    const nombre=document.getElementById('nombre');
+
+    nombre.minLength="4";
+  
+    const correo=document.getElementById('correo');
+    correo.required=" "
     
-   
+    const descripcion=document.getElementById('descripcion');
+    descripcion.required=" "
 });
+

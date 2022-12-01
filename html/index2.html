@@ -7,7 +7,7 @@
     <title>Packages</title>
     <link rel="stylesheet" href="../css/index2.css">
     <link rel="shortcut icon" href="../img/icon.jpeg" type="image/x-icon">
-    <script src="../js/index1.js"></script>
+    <script src="../js/index2.js" type="text/javascript"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,24 +15,31 @@
 
 </head>
 <body>
-    
-    <figure class="icon-s">
-        <img src="../img/hamburguer.png" alt="menu" id="icon-menu" >
-   </figure>
-
-    <header>
-       <img src="../img/banner2.jpeg" alt="banner" id="banner-img-atras">
-       <img src="../img/logo-wb.png" alt="logo" id="banner-img-adelante">
-    </header>
+   <header>
     <nav>
-        <ol>
+        <img src="../img/log.png" alt="" class="logo">
+        <ol class="enlaces-menu">
             <li onclick="inicio()">Inicio</li>
-            <li onclick="paquetes()">Paquetes</li>
-            <li onclick="contactos()">Contactos y <br> reservas</li>
+            <li onclick="">Paquetes</li>
+            <li onclick="contactos()">Consultas y Reservas</li>
         </ol>
+        <button class="ham" type="button">
+            <span class="br-1"></span>
+            <span class="br-2"></span>
+            <span class="br-3"></span>
+        </button>
     </nav>
+</header>
+
+<div class="hero">
+    <p class="hero-title">
+        CREA MEMORIAS CON <br>
+    </p>
+    <img src="../img/logo-wb.png" alt="logo-hero" class="hero-logo" >
+</div>
 
     <h1 class="titulo-paquetes">Paquetes</h1>
+
     <p class="paquete" id="ids"> UYUNI</p>
     <div class="container">
         <div class="package">
@@ -41,7 +48,7 @@
                 <h1 class="title"> UYUNI FULL DAY</h1>
                 <p class="info-p">El tour empieza en la ciudad de UYUNI dirigiendose luego al <bold> cementerio de trenes</bold> donde se les brindara una explicación sobre su historia, destalles extras y se les permitira tomarse fotos. Luego de visitar el cementerio de trenes, se continua la visita al <bold>museo de sal </bold>donde tambien se podra apreciar como se hace las excavaciones de sal para luego realizar su proceso para la venta. Tras terminar ello por fin se va al<bold> Salar de Uyuni</bold> donde se podra disfrutar de las grandiosas vistas que posee este destino, se les brindara un tiempo para las fotos y disfrutar de sus paisajes para al fin del dia volver a la ciudad de Uyuni donde acabará el tour </p>
             </article>
-            <button>Reservar</button>
+            <button class="b-res"><a href="../html/index3.html"> Reservar</a></button>
         </div>
         <div class="package">
             <img src="../img/uyuni-ban.jpeg" alt="uyuni"  class="img-package">
@@ -50,7 +57,7 @@
                 <p class="info-p">El tour empieza en la ciudad de UYUNI dirigiendose luego al <bold> cementerio de trenes</bold> donde se les brindara una explicación sobre su historia, destalles extras y se les permitira tomarse fotos. Luego de visitar el cementerio de trenes, se continua la visita al <bold>museo de sal </bold>donde tambien se podra apreciar como se hace las excavaciones de sal para luego realizar su proceso para la venta. Tras terminar ello por fin se va al<bold> Salar de Uyuni</bold> donde se podra disfrutar de las grandiosas vistas que posee este destino, se les brindara un tiempo para las fotos y disfrutar de sus paisajes para al fin del dia volver a la ciudad de Uyuni donde acabará el tour por ese día, para el segundo día, durante la noche se iran transportando en la camioneta de la empresa donde     </p>
 
             </article>
-            <button>Reservar</button>
+            <button class="b-res"><a href="../html/index3.html"> Reservar</a></button>
         </div>
         <div class="package">
             <img src="../img/uyuni-ban.jpeg" alt="uyuni"  class="img-package">
@@ -59,6 +66,41 @@
                 <p class="info-p">El tour empieza en la ciudad de UYUNI dirigiendose luego al <bold> cementerio de trenes</bold> donde se les brindara una explicación sobre su historia, destalles extras y se les permitira tomarse fotos. Luego de visitar el cementerio de trenes, se continua la visita al <bold>museo de sal </bold>donde tambien se podra apreciar como se hace las excavaciones de sal para luego realizar su proceso para la venta. Tras terminar ello por fin se va al<bold> Salar de Uyuni</bold> donde se podra disfrutar de las grandiosas vistas que posee este destino, se les brindara un tiempo para las fotos y disfrutar de sus paisajes para al fin del dia volver a la ciudad de Uyuni donde acabará el tour por ese día</p>
 
             </article>
-            <button>Reservar</button>
+            <button class="b-res"><a href="../html/index3.html"> Reservar</a></button>
         </div>
     </div>
+    <p class="paquete" id="ids"> COPACABANA</p>
+    <div class="container">
+        <div class="package">
+            <img src="../img/copa.jpeg" alt="uyuni" class="img-package">
+            <article class="info-package">
+                <h1 class="title"> COPACABANA FULL DAY</h1>
+                <p class="info-p">El tour empieza en la ciudad de UYUNI dirigiendose luego al <bold> cementerio de trenes</bold> donde se les brindara una explicación sobre su historia, destalles extras y se les permitira tomarse fotos. Luego de visitar el cementerio de trenes, se continua la visita al <bold>museo de sal </bold>donde tambien se podra apreciar como se hace las excavaciones de sal para luego realizar su proceso para la venta. Tras terminar ello por fin se va al<bold> Salar de Uyuni</bold> donde se podra disfrutar de las grandiosas vistas que posee este destino, se les brindara un tiempo para las fotos y disfrutar de sus paisajes para al fin del dia volver a la ciudad de Uyuni donde acabará el tour </p>
+            </article>
+            <button class="b-res"><a href="../html/index3.html"> Reservar</a></button>
+        </div>
+        <div class="package">
+            <img src="../img/copa.jpeg" alt="uyuni"  class="img-package">
+            <article class="info-package">
+                <h1 class="title"> COPACABANA 2 DIAS 1 NOCHE</h1>
+                <p class="info-p">El tour empieza en la ciudad de UYUNI dirigiendose luego al <bold> cementerio de trenes</bold> donde se les brindara una explicación sobre su historia, destalles extras y se les permitira tomarse fotos. Luego de visitar el cementerio de trenes, se continua la visita al <bold>museo de sal </bold>donde tambien se podra apreciar como se hace las excavaciones de sal para luego realizar su proceso para la venta. Tras terminar ello por fin se va al<bold> Salar de Uyuni</bold> donde se podra disfrutar de las grandiosas vistas que posee este destino, se les brindara un tiempo para las fotos y disfrutar de sus paisajes para al fin del dia volver a la ciudad de Uyuni donde acabará el tour por ese día, para el segundo día, durante la noche se iran transportando en la camioneta de la empresa donde     </p>
+
+            </article>
+            <button class="b-res"><a href="../html/index3.html"> Reservar</a></button>
+        </div>
+       
+    </div>
+    <p class="paquete" id="ids"> LA PAZ</p>
+    <div class="container">
+        <div class="package">
+            <img src="../img/lpc.jpeg" alt="uyuni" class="img-package">
+            <article class="info-package">
+                <h1 class="title"> CITY TOUR CLASICO</h1>
+                <p class="info-p">El tour empieza en la ciudad de UYUNI dirigiendose luego al <bold> cementerio de trenes</bold> donde se les brindara una explicación sobre su historia, destalles extras y se les permitira tomarse fotos. Luego de visitar el cementerio de trenes, se continua la visita al <bold>museo de sal </bold>donde tambien se podra apreciar como se hace las excavaciones de sal para luego realizar su proceso para la venta. Tras terminar ello por fin se va al<bold> Salar de Uyuni</bold> donde se podra disfrutar de las grandiosas vistas que posee este destino, se les brindara un tiempo para las fotos y disfrutar de sus paisajes para al fin del dia volver a la ciudad de Uyuni donde acabará el tour </p>
+            </article>
+            <button class="b-res"><a href="../html/index3.html"> Reservar</a></button>
+        </div>
+        </div>
+        
+</body>
+</html>

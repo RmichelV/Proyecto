@@ -7,7 +7,7 @@
     <title>Contactos</title>
     <link rel="stylesheet" href="../css/index3.css">
     <link rel="shortcut icon" href="../img/icon.jpeg" type="image/x-icon">
-    <script src="../js/index1.js"></script>
+    <script src="../js/index3.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,44 +16,49 @@
 </head>
 
 <body>
-    <figure class="icon-s">
-         <img src="../img/hamburguer.png" alt="menu" id="icon-menu" >
-    </figure>
-   
-    <header>
-       <img src="../img/banner2.jpeg" alt="banner" id="banner-img-atras">
-        <img src="../img/logo-wb.png" alt="logo" id="banner-img-adelante">
-    </header>
     
-    <nav class="nav">
-        <ol>
-            <li onclick="inicio()">Inicio</li>
-            <li onclick="paquetes()">Paquetes</li>
-            <li onclick="contactos()">Contactos y <br> reservas</li>
-        </ol>
-    </nav>
+    <header>
+        <nav>
+            <img src="../img/log.png" alt="" class="logo">
+            <ol class="enlaces-menu">
+                <li onclick="inicio()">Inicio</li>
+                <li onclick="cambPaq()">Paquetes</li>
+                <li onclick="contactos()">Consultas y Reservas</li>
+            </ol>
+            <button class="ham" type="button">
+                <span class="br-1"></span>
+                <span class="br-2"></span>
+                <span class="br-3"></span>
+            </button>
+        </nav>
+    </header>
 
-    <h1 class="titulo-paquetes">CONSULTAS Y RESERVAS</h1>
-
-    <div class="contactos">
-        <p class="tic">CONSULTAS</p>
-        <P class="tic">RESERVAS</P>
+    <div class="hero">
+        <p class="hero-title">
+            CREA MEMORIAS CON <br>
+        </p>
+        <img src="../img/logo-wb.png" alt="logo-hero" class="hero-logo" >
     </div>
+
+    
+    <h1 class="titulo-paquetes">CONSULTAS Y RESERVAS</h1>
 
     <div class="container">
         <div class="consultas">
             <h1>Consultas</h1>
             <form>
-                <div class="labels">
-                    <label for="nombre">NOMBRE: </label>
+                <div class="form-cont">
+                    <div class="form-req">
+                        <div class="labels">
+                    <label for="nombre">NOMBRE COMPLETO: </label>
                     <label for="correo">CORREO: </label>
                     <label for="paquete">PAQUETE: </label>
                     <label for="descripcion"> DESCRIPCION: </label>
                 </div>
                 <div class="inputs">
-                    <input type="text" name="nombre" id="nombre">
-                    <input type="email" name="correo" id="correo">
-                    <select name="paquete" id="paquete">
+                    <input type="text" name="nombre" id="nombre" class="inp" placeholder="Ingresa tu nombre aqui">
+                    <input type="email" name="correo" id="correo" class="inp" placeholder="ingresea tu correo electronico aqui">
+                    <select name="paquete" id="paquete" class="inp">
                         <option value="Uyuni">Uyuni</option>
                         <option value="CityTour">City Tour Clasico</option>
                         <option value="Copabana">Copacabana</option>
@@ -61,13 +66,28 @@
                         <option value="Madidi">Madidi</option>
                         <option value="Bus seensight"></option>
                     </select>
-                    <input type="text" name="descripcion" id="descripcion">
+                    <input type="text" name="descripcion" id="descripcion" placeholder="Escribe aqui tu consulta o reserva para luego ponernos en contacto contigo">
+                </div>
+                </div>
+                <a href="#gracias"><input type="submit" class="b-sub" value="Enviar" ></a>
                 </div>
             </form>
         </div>
-        <div class="reservas">
+       
+    </div>
 
-        </div>
+    <div class="contact">
+        <a href="https://www.facebook.com/mapamundigo" class="red">
+            <img src="../img/Logo_de_Facebook.png" alt="facebook" class="icon-rd">
+        </a>
+
+        <a href="https://www.instagram.com/mapamundi_go/" class="red">
+            <img src="../img/Instagram_logo_2016.svg.png" alt="facebook" class="icon-rd" target="_blank">
+        </a>
+
+        <a href="https://wa.me/59178827517" class="reds">
+            <img src="../img/WhatsApp.png" alt="facebook" class="icon-rd">
+        </a>
     </div>
 </body>
 </html>

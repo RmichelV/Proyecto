@@ -2,12 +2,12 @@ function cambPaq(){
     location.href="../html/index2.html"
 }
 function inicio(){
-   
-    location.href="../html/index1.html";
+    location.href="../html/index1.html"
 }
 function contactos(){
     location.href="../html/index3.html"
 }
+
 document.addEventListener("DOMContentLoaded", function(event) {
 
     const ham = document.querySelector('.ham');
@@ -28,8 +28,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
         header.classList.toggle("sticky",this.window.scrollY>100)
     })
 
-   
- 
-    
-   
 });
