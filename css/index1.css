@@ -175,6 +175,21 @@ article{
     font-family: 'Lexend', sans-serif;
     font-weight: bold;
 }
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px red solid;
+    width: 600px;
+    height: 400px;
+}
+
+.vid{
+    border: 1px green solid;
+    width: 600px;
+    height: 400px;
+}
 .img-container{
     margin: 20px;
     width: 600px;
@@ -203,7 +218,12 @@ article h1{
 }
 
 
-
+.audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
 
 @media (max-width:1180px) {
     .img-container{

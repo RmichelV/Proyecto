@@ -37,6 +37,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     correo.required=" "
     
     const descripcion=document.getElementById('descripcion');
-    descripcion.required=" "
+    descripcion.minLength ="16"
 });
 

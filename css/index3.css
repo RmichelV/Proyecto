@@ -220,6 +220,17 @@ form #descripcion{
     border-radius: 100%;;;
 }
 
+.gen{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+fieldset{
+    margin: 20px;
+    margin-top: 0;
+    font-size: 20px;
+}
+
 @media (max-width:1180px) {
     .img-container{
         width: 450px;
@@ -310,13 +321,14 @@ form #descripcion{
         width: 600px;
     }
 
+    form .inputs{
+        padding-top: 30px;
+    }
+
     form .inp{
         width: 280px;
     }
 
-    form #descripcion{
-        width: 280px;
-    }
     
 }
 

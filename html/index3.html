@@ -53,7 +53,7 @@
                     <label for="nombre">NOMBRE COMPLETO: </label>
                     <label for="correo">CORREO: </label>
                     <label for="paquete">PAQUETE: </label>
-                    <label for="descripcion"> DESCRIPCION: </label>
+                    <label for="Genero"> GENERO </label>
                 </div>
                 <div class="inputs">
                     <input type="text" name="nombre" id="nombre" class="inp" placeholder="Ingresa tu nombre aqui">
@@ -66,9 +66,26 @@
                         <option value="Madidi">Madidi</option>
                         <option value="Bus seensight"></option>
                     </select>
-                    <input type="text" name="descripcion" id="descripcion" placeholder="Escribe aqui tu consulta o reserva para luego ponernos en contacto contigo">
+                    <div class="gen">
+                        <label class="">Hombre</label>
+                        <input type="radio" name="genero" id="hombre" value="Hombre"> 
+                        <label>Mujer</label>
+                        <input type="radio" name="genero" id="mujer" value="Mujer"> 
+                        <label>Otro</label>
+                        <input type="radio" name="genero" id="otro" value="Otro"> 
+                    </div>
+                    
                 </div>
                 </div>
+                <fieldset>
+                    <legend>Incluir</legend>
+                    <label for="museo">Visita a Museos</label>
+                    <input type="checkbox" value="museo"><br>
+                    <label for="restaurante">Visita a Restaurantes</label>
+                    <input type="checkbox" value="restaurante"> <br>
+                    <label for="comercio">Paseo por zonas comerciales</label>
+                    <input type="checkbox" value="comercio">
+                </fieldset>
                 <a href="#gracias"><input type="submit" class="b-sub" value="Enviar" ></a>
                 </div>
             </form>
@@ -89,5 +106,9 @@
             <img src="../img/WhatsApp.png" alt="facebook" class="icon-rd">
         </a>
     </div>
+    <audio controls>
+        <source src="../music/y2mate.com - El árbol de mi destino Karaoke Colibri Productions.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+    </audio>
 </body>
 </html>
